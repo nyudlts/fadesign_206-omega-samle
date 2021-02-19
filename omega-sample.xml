@@ -6,14 +6,16 @@
         <eadid>mss.001</eadid>
         <filedesc>
             <titlestmt>
-                <titleproper>This is a <emph render="bold">Title</emph> proper[sic]
+                <titleproper>This is a <emph render="bold">Title</emph> proper
                         <num>MSS.001</num>
                 </titleproper>
                 <subtitle>The Subtitle</subtitle>
                 <author>The Author</author>
                 <sponsor>The Sponsor</sponsor>
             </titlestmt>
-            
+            <editionstmt>
+                <p>An Edition Statement</p>
+            </editionstmt>
             <publicationstmt>
                 <publisher>Tamiment Library and Robert F. Wagner Labor Archives</publisher>
                 <address>
@@ -29,13 +31,13 @@
                             xlink:type="simple"/></addressline>
                 </address>
             </publicationstmt>
-           
+
             <notestmt>
                 <note>
                     <p>A Note Statement Paragraph</p>
                 </note>
             </notestmt>
-            
+
         </filedesc>
 
         <profiledesc>
