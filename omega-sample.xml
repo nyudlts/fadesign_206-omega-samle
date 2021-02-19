@@ -6,45 +6,61 @@
         <eadid>mss.001</eadid>
         <filedesc>
             <titlestmt>
-                <titleproper>This is a <emph render="bold">Title</emph> proper[sic]<num>a
-                        number</num></titleproper>
+                <titleproper>This is a <emph render="bold">Title</emph> proper[sic]
+                        <num>MSS.001</num>
+                </titleproper>
                 <subtitle>The Subtitle</subtitle>
                 <author>The Author</author>
                 <sponsor>The Sponsor</sponsor>
             </titlestmt>
+
+            <publicationstmt>
+                <publisher>Tamiment Library and Robert F. Wagner Labor Archives</publisher>
+                <address>
+                    <addressline>Elmer Holmes Bobst Library</addressline>
+                    <addressline>70 Washington Square South</addressline>
+                    <addressline>2nd Floor</addressline>
+                    <addressline>New York, NY 10012</addressline>
+                    <addressline>special.collections@nyu.edu</addressline>
+                    <addressline>URL: <extptr
+                            xlink:href="http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/"
+                            xlink:show="new"
+                            xlink:title="http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/"
+                            xlink:type="simple"/></addressline>
+                </address>
+            </publicationstmt>
+
         </filedesc>
-        
+
         <profiledesc>
-            <creation>
-                This finding aid was produced by hand on 
-                <date calendar="gregorian" era="ce" normal="2021-02-19" type="type">2021-02-19 10:24:43-0500</date>.
-            </creation>
+            <creation> This finding aid was produced by hand on <date calendar="gregorian" era="ce"
+                    normal="2021-02-19" type="type">2021-02-19 10:24:43-0500</date>. </creation>
             <langusage>
-                <language></language>
+                <language/>
             </langusage>
             <descrules>descriptive rules</descrules>
         </profiledesc>
-        
+
         <revisiondesc>
             <change>
                 <date>2021-02-19 </date>
-                <item> an <emph render="bold">item</emph><lb/>
-                    a <name>name</name>
+                <item> an <emph render="bold">item</emph><lb/> a <name>name</name>
                     <bibref>
-                        <title render="bold" source="local" type="type">A <emph render="italic">Bibref</emph></title>
+                        <title render="bold" source="local" type="type">A <emph render="italic"
+                                >Bibref</emph></title>
                     </bibref>
-                    <corpname></corpname>
+                    <corpname/>
                 </item>
             </change>
         </revisiondesc>
-        
+
     </eadheader>
-    
+
     <archdesc level="collection">
         <did>
-            <head></head>
-            <abstract></abstract>
+            <head/>
+            <abstract/>
         </did>
     </archdesc>
-    
+
 </ead>
