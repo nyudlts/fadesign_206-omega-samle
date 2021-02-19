@@ -13,7 +13,7 @@
                 <author>The Author</author>
                 <sponsor>The Sponsor</sponsor>
             </titlestmt>
-
+            
             <publicationstmt>
                 <publisher>Tamiment Library and Robert F. Wagner Labor Archives</publisher>
                 <address>
@@ -29,7 +29,13 @@
                             xlink:type="simple"/></addressline>
                 </address>
             </publicationstmt>
-
+           
+            <notestmt>
+                <note>
+                    <p>A Note Statement Paragraph</p>
+                </note>
+            </notestmt>
+            
         </filedesc>
 
         <profiledesc>
