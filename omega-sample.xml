@@ -6,8 +6,7 @@
         <eadid>mss.001</eadid>
         <filedesc>
             <titlestmt>
-                <titleproper>This is a <emph render="bold">Title</emph> proper
-                        <num>MSS.001</num>
+                <titleproper>This is a <emph render="bold">Title</emph> proper <num>MSS.001</num>
                 </titleproper>
                 <subtitle>The Subtitle</subtitle>
                 <author>The Author</author>
@@ -42,9 +41,9 @@
 
         <profiledesc>
             <creation> This finding aid was produced by hand on <date calendar="gregorian" era="ce"
-                    normal="2021-02-19" type="type">2021-02-19 10:24:43-0500</date>. </creation>
+                    normal="2021-02-19" type="type">2021-02-19 10:24:43-0500</date>.</creation>
             <langusage>
-                <language/>
+                <language langcode="eng" scriptcode="Latn"> English </language>
             </langusage>
             <descrules>descriptive rules</descrules>
         </profiledesc>
@@ -57,7 +56,10 @@
                         <title render="bold" source="local" type="type">A <emph render="italic"
                                 >Bibref</emph></title>
                     </bibref>
-                    <corpname/>
+                    <title>A title within an item withing a change within a revisiondesc</title>
+                    <name source="source" rules="rules" role="cre"> A name.</name>
+                    <corpname source="source" rules="rules" role="cre">A corporate Name.</corpname>
+                    <persname source="source" rules="rules" role="cre">A Persname</persname>
                 </item>
             </change>
         </revisiondesc>
