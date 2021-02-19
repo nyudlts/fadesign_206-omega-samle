@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+    <eadheader>
+        <eadid>mss.001</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>This is a <emph render="bold">Title</emph> proper[sic]<num>a
+                        number</num></titleproper>
+                <subtitle>The Subtitle</subtitle>
+                <author>The Author</author>
+                <sponsor>The Sponsor</sponsor>
+            </titlestmt>
+        </filedesc>
+        
+        <profiledesc>
+            <creation>
+                This finding aid was produced by hand on 
+                <date calendar="gregorian" era="ce" normal="2021-02-19" type="type">2021-02-19 10:24:43-0500</date>.
+            </creation>
+            <langusage>
+                <language></language>
+            </langusage>
+            <descrules>descriptive rules</descrules>
+        </profiledesc>
+        
+        <revisiondesc>
+            <change>
+                <date>2021-02-19 </date>
+                <item> an <emph render="bold">item</emph><lb/>
+                    a <name>name</name>
+                    <bibref>
+                        <title render="bold" source="local" type="type">A <emph render="italic">Bibref</emph></title>
+                    </bibref>
+                    <corpname></corpname>
+                </item>
+            </change>
+        </revisiondesc>
+        
+    </eadheader>
+</ead>
